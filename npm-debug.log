@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'package.json' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+5 warn package.json javascript-tdd-setup@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\node_modules\chai\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\node_modules\mocha\package.json
+8 verbose readDependencies loading dependencies from C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+9 silly cache add args [ 'package.json', null ]
+10 verbose cache add spec package.json
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'package.json',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'package.json',
+11 silly cache add   spec: 'C:\\Users\\Iwuozo Chris\\Desktop\\oop repo\\javascript-oop\\package.json',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 258a6c7a0989bef0e5106745bbee0ad2ccec0b64
+13 verbose addTmpTarball C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json not in flight; adding
+14 verbose correctMkdir C:\Users\Iwuozo Chris\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+16 verbose tar unpack C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+17 verbose tar unpacking to C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4
+18 silly gentlyRm C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4 is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 error not a package C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+22 error addLocal Could not install C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop\package.json
+23 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4\package.json'
+23 verbose stack     at Error (native)
+24 verbose cwd C:\Users\Iwuozo Chris\Desktop\oop repo\javascript-oop
+25 error Windows_NT 10.0.10240
+26 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "package.json"
+27 error node v4.6.0
+28 error npm  v2.15.9
+29 error path C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4\package.json
+30 error code ENOENT
+31 error errno -4058
+32 error syscall open
+33 error enoent ENOENT: no such file or directory, open 'C:\Users\IWUOZO~1\AppData\Local\Temp\npm-20324-01f6d0d8\unpack-1efca089c9f4\package.json'
+33 error enoent This is most likely not a problem with npm itself
+33 error enoent and is related to npm not being able to find a file.
+34 verbose exit [ -4058, true ]
